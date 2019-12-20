@@ -1,0 +1,100 @@
+/*
+    DEMO STYLE
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    
+}
+
+.centrar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    margin-right: -17%;  
+    
+}
+.tamaño{
+    font-size: 1em;
+    margin-top: .5em;
+}
+.imagen {
+    width: 8em;
+    height: 10em;
+}
+.imagent {
+    width: 8em;
+    height: 8em;
+}
+.espacio {
+
+    margin-top: 2em;
+}
+.imagenc{
+    width: 14em;
+    height: 16em;
+}
+.let p {
+    text-transform: lowercase;
+}
+
+.let p:first-letter {
+    text-transform: uppercase;
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 10px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+/* ---------------------------------------------------
+    ICONO
+----------------------------------------------------- */
+.icono.izquierda {
+    float: left;
+    margin-right: 10px;
+}
+.icono.derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
