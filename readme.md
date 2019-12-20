@@ -1,3 +1,8 @@
+## Registro de asistencia de practicantes
+
+<p>Este proyecto realiza el registro de asistencia de los practicantes de una empresa. </p>
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
